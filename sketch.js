@@ -17,7 +17,7 @@ function setup(){
 	box1 = new Box(700,323,30,89);
     box2 = new Box(920,323,30,89);
     box3 = new Box(810,385,250,30);
-   // paper1 = new Paper(325,300,30,30)
+   // paper1 = new Paper(325,300,30,30);
     paper = new Paper(100,300,30);
 }
 

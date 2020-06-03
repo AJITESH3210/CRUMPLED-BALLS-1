@@ -1,16 +1,16 @@
 
 class Paper {
-constructor(x, y,) {
+constructor(x, y,radius) {
     var options = { 
       'isStatic' : false,
       'restitution':0.3,
       'friction':0.5,
-      'density':2.5
+      'density':0.65
     }
-    this.body = Bodies.circle(x, y, 15, options);
+    this.body = Bodies.circle(x, y, radius, options);
     this.width = 50;
     this.height = 50;
-    
+    this.radius = 50
     World.add(world, this.body);
   }
   display(){
